@@ -1,0 +1,334 @@
+*{
+	
+	padding: 0px;
+	margin: 0px;
+
+}
+
+body{
+	font-size: 14px;
+	line-height: 1.7em;
+	  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+/* global cssstart */
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+/* global css end */
+
+
+.header {
+	width: 100%;
+	background: #eee;
+	padding: 10px 0px;
+}
+
+
+.inner-header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*.logo{
+	width: 15%;
+flex-basis: 15%;
+}*/
+
+
+.logo img{
+	width: 150px;
+}
+
+
+/*.menu{
+	width: 60%;
+flex-basis: 60%;
+}
+*/
+.menu ul{
+text-align: center;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+
+.menu ul li a{
+	display: block;
+	margin: 22px 15 px 0px;
+	color: #0665C4;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.buttons-group{
+display: flex;
+}
+
+.btn-info{
+	display: inline-block;
+	padding: 12px 30px;
+	margin: 10px 0px 0px 15px;
+	font-size: 16px;
+	font-weight: 600;
+	background: #0665c4;
+	color: #fff;
+	border: 1px solid #0665c4;
+}
+
+.btn-info:hover{
+	background: #00AAEF;
+	color: #fff;
+	border: 1px solid #00AAEF;
+}
+
+
+.banner-section{
+	width: 100%;
+	padding: 80px 0px;
+background: url(../images/) no-repeat center;
+	background-size: cover;
+}
+
+
+.inner-banner {
+	display: flex;
+	align-items: center;
+}
+
+
+.left-banner{
+	flex-basis: 45%;
+}
+
+
+.left-banner h1{
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 1.2em;
+	color: #0665c4;
+
+}
+
+.left-banner p{
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 1.2em;
+	color: #0665c4;
+	margin: 15px 0px;
+
+}
+
+.left-banner .btn-info{
+	display: inline-block;
+	padding: 12px 30px;
+	margin: 8px 0px 0px 0px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 600;
+	background: #0665c4;
+	color: #fff;
+	border: 1px solid #0665c4;
+}
+
+.right-banner{
+	flex-basis:55%;
+	text-align: center;
+}
+
+.right-banner img {
+	width: 100%;
+}
+
+
+
+
+
+/*----------------------------------------
+features
+----------------------------------------*/
+
+
+.top-course{
+	padding: 80px 0px 115px;
+	background: url('../images/background.jpg')no-repeat center center;
+	background-size: cover;
+}
+.top-course .title-h2 {
+    font-size: 45px;
+    color: #fff;
+    line-height: 46px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.top-course .features-course-block .course-wrapper{
+	padding: 15px;
+	border-radius: 8px;
+	background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.top-course .features-course-block .course-digital{
+	background: url("../images/digital-marketing.jpg");
+}
+
+.top-course .features-course-block .course-web{
+	background: url("../images/full-stack.jpg");
+}
+
+.top-course .features-course-block .course-graphic{
+	background: url("../images/graphic.jpg");
+}
+
+.top-course .features-course-block .course-shopify{
+	background: url("../images/shopify.jpg");
+}
+
+.top-course .features-course-block .course-thumb{
+	padding: 40px 0px;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 8px;
+	text-align: center;
+
+}
+
+.top-course .features-course-block .course-thumb h3{
+	padding: 12px 0px 0px;
+	font-size: 28px;
+    line-height: 0.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.top-course .features-course-block .course-thumb h3 span{
+	font-size: 16px;
+}
+
+.top-course .features-course-block .course-title{
+	padding: 15px 0px 0px 5px;
+}
+
+.top-course .features-course-block .course-title h5{
+	font-size: 15px;
+    color: #000;
+    line-height: 22px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.top-course .features-course-block .course-detail{
+	padding: 0px 5px 10px;
+}
+
+.top-course .features-course-block .course-detail p{
+	color: #000;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+
+/*----------------------------------------
+Footer
+----------------------------------------*/
+
+.newsletter-inner {
+  border-radius: 8px;
+  margin-bottom: 60px;
+  padding: 100px 60px 80px 60px;
+      box-shadow: 0 8px 28px 2px rgba(61, 61, 61, .12);
+      background-color: #0e72cc;
+}
+.newsletter-inner .form-control{
+  width: 70%;
+  border-radius: 8px;
+  height: 43px;
+    float: left;
+}
+.subscribe-mail {
+  position: relative;
+  top:20px;
+}
+.newsletter-inner  .btn-subscribe:hover,
+.newsletter-inner  .btn-subscribe:focus{
+background-color:  #6FC7D9;
+}
+.newsletter-inner  .btn-subscribe{
+color: #fff;
+margin-left: 10px;
+}
+.newsletter-inner p{
+  color: #fff;
+}
+.newsletter-inner h2{
+  color:#fff;
+  font-size: 24px;
+}
+.subscribe-form{
+  margin-top: 25px;
+}
+
+
+.footer-top{
+  padding: 30px 0 20px;
+}
+.ssl-image{
+  padding: 20px 0 0;
+}
+
+.footer-bottom{
+ 
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  margin: 0px auto;
+  padding: 0px;
+   color: #0e72cca1;
+  font-size: 14px;
+}
+
+
+footer p.error-message {
+  color: #e10438;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+footer p.sucess-message {
+  color: #4ec952;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.footer-inner span{
+  line-height: 45px;
+  font-size: 13px;
+
+}
